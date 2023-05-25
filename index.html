@@ -1,0 +1,516 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div id="menu-bar" class="fa fa-bars"></div>
+            <a href="#" class="logo">JOYCE'S SHOE's STORE</a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#product">Product</a>
+                <a href="#fearured">Featured</a>
+                <a href="#blog">Preview</a>
+                <a href="#news">news</a>
+            </nav>
+            
+        </header>
+        <!--end header-->
+        <section class="home" id="home">
+            <div class="slide-container active">
+                <div class="slide">
+                    <div class="content">
+                        <span>Nike Sport Shoes</span>
+                        <h3>Nike Metcon Shoes</h3>
+                        <p>
+                            The Nike Metcon Shoes combines flexibility with stability for the modern pace of high-intensity training. High-intensity training, short runs, boot camps and strength training.
+                        </p>
+                        <p class="product-price">₱250</p>
+          <input type="number" min="1" value="1" class="product-quantity">
+          <button class="add-to-cart">Add to Cart</button>
+                     
+                    </div>
+                    <div class="image">
+                        <img src="img/slide/1.png" class="shoe">
+                    </div>
+                </div>
+            </div>
+           
+        </section>
+        <!--end home-->
+        <!DOCTYPE html>
+        <html>
+        <head>
+          <title>Shopping Cart</title>
+          <link rel="stylesheet" type="text/css" href="styles.css">
+        </head>
+        <body>
+            <div class="cart">
+                <h2>YOUR CART</h2>
+                <ul class="cart-items">
+                  <!-- Cart items will be added dynamically using JavaScript -->
+                </ul>
+                <p class="cart-total">TOTAL: <span class="total">₱0</span></p>
+                <button class="checkout">Checkout</button>
+              </div>
+            
+              <div class="overlay">
+                <div class="checkout-form">
+                  <h2>Checkout</h2>
+                  <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+            
+                    <label for="address">Address:</label>
+                    <textarea id="address" required></textarea>
+            
+                    <p>Select Payment Method:</p>
+                    <div class="payment-options">
+                      <input type="radio" id="gcash" name="payment-method" value="gcash" checked>
+                      <label for="gcash">GCash</label>
+            
+                      <input type="radio" id="visa" name="payment-method" value="visa">
+                      <label for="visa">Visa</label>
+            
+                      <input type="radio" id="paypal" name="payment-method" value="paypal">
+                      <label for="paypal">PayPal</label>
+                    </div>
+            
+                    <ul class="checkout-items">
+                      <!-- Checkout items will be added dynamically using JavaScript -->
+                    </ul>
+            
+                    <p class="checkout-total">TOTAL: <span class="checkout-total-price">₱0</span></p>
+            
+                    <div class="button-group">
+                      <button type="submit">Place Order</button>
+                      <button type="button" class="cancel">Cancel</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              
+        
+          <script src="script.js"></script>
+        </body>
+        </html>
+        
+        <section class="product" id="product">
+            <h1 class="heading">latest <span>Products</span></h1>
+            
+            <div class="box-container">
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-share"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/1.jpg" alt="">
+                        <h3>Nike Air Force Black Shoes</h3>
+                        <p class="product-price">₱500</p>
+          <input type="number" min="1" value="1" class="product-quantity">
+          <button class="add-to-cart">Add to Cart</button>
+                   
+            
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-share"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/2.jpg" alt="">
+                        <h3>Nike Air Force pink Shoes</h3>
+                  
+                        <p class="product-price">₱750</p>
+                        <input type="number" min="1" value="1" class="product-quantity">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-share"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/3.jpg" alt="">
+                        <h3>Nike Air Force Blue Shoes</h3>
+                        <p class="product-price">₱950</p>
+                        <input type="number" min="1" value="1" class="product-quantity">
+                        <button class="add-to-cart">Add to Cart</button>
+               
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-share"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/5.jpg" alt="">
+                        <h3>Nike Air Force Blue Pink Shoes</h3>
+         
+                        <p class="product-price">₱1,150</p>
+                        <input type="number" min="1" value="1" class="product-quantity">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-share"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/7.png" alt="">
+                        <h3>Nike Air Force Pure Green Shoes</h3>
+           
+                        <p class="product-price">₱1,250</p>
+                        <input type="number" min="1" value="1" class="product-quantity">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fa fa-heart"></a>
+                        <a href="#" class="fa fa-share"></a>
+                        <a href="#" class="fa fa-eye"></a>
+                    </div>
+                    <div class="content">
+                        <img src="img/product4/8.png" alt="">
+                        <h3>Nike Air Force Pure Red Shoes</h3>
+            
+                        <p class="product-price">₱450</p>
+                        <input type="number" min="1" value="1" class="product-quantity">
+                        <button class="add-to-cart">Add to Cart</button>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end product-->
+        <section class="featured" id="fearured">
+            <h1 class="heading">New <span>Products</span></h1>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product1/1.jpg" alt="" class="featured-image-1">
+                        <img src="img/product1/2.jpg" alt="" class="featured-image-1">
+                        <img src="img/product1/3.jpg" alt="" class="featured-image-1">
+                        <img src="img/product1/4.jpg" alt="" class="featured-image-1">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product1/1.jpg" alt="" class="big-image-1">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>New Nike Airmac Red shoes</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                     Find Red Nike Airmac at Nike.com. Free delivery and returns.
+                    </p>
+                    <p class="product-price">₱3,050</p>
+                    <input type="number" min="1" value="1" class="product-quantity">
+                    <button class="add-to-cart">Add to Cart</button>
+   
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product2/1.jpg" alt="" class="featured-image-2">
+                        <img src="img/product2/2.jpg" alt="" class="featured-image-2">
+                        <img src="img/product2/3.jpg" alt="" class="featured-image-2">
+                        <img src="img/product2/4.jpg" alt="" class="featured-image-2">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product2/1.jpg" alt="" class="big-image-2">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>New Nike Airmac Green shoes</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        Find Green Nike Airmac at Nike.com. Free delivery and returns.
+                    </p>
+                    <p class="product-price">₱7,000</p>
+                    <input type="number" min="1" value="1" class="product-quantity">
+                    <button class="add-to-cart">Add to Cart</button>
+   
+                </div>
+            </div>
+            <div class="row">
+                <div class="image-container">
+                    <div class="small-image">
+                        <img src="img/product3/1.jpg" alt="" class="featured-image-3">
+                        <img src="img/product3/2.jpg" alt="" class="featured-image-3">
+                        <img src="img/product3/3.jpg" alt="" class="featured-image-3">
+                        <img src="img/product3/4.jpg" alt="" class="featured-image-3">
+                    </div>
+                    <div class="big-image">
+                        <img src="img/product3/1.jpg" alt="" class="big-image-3">
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>New Nike Airmac Black shoes</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>
+                        Find Black Nike Airmac at Nike.com. Free delivery and returns.
+                    </p>
+                    <p class="product-price">₱8,000</p>
+                    <input type="number" min="1" value="1" class="product-quantity">
+                    <button class="add-to-cart">Add to Cart</button>
+ 
+                </div>
+            </div>
+        </section>
+        <!--end featured-->
+        <section class="blog" id="blog">
+            <h1 class="heading">Prev <span>View</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/345838868_209136551890767_926216639933922534_n.png?stp=dst-png_s206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeE-7N3BNHqvcvSNLlxRA9YzxmUIo5n1tHDGZQijmfW0cBP4WLoR9pvr0aKe0j6fkMFrHNs-qEyM4A5rExRvOAXd&_nc_ohc=oAvFrhDwZLIAX_nXL_B&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQzLYtdMps7atdfsxbabC3sOGnC1CPagiq8gvh0daLSOw&oe=648179EE" alt="">
+                    <h3>BURNOK MAGALLANES</h3>
+                    <p>
+                        The price was absolutely worth it, but still really reasonable. My advice would be to listen to the designer about colour choices. I would absolutely get another pair made if I ever had the need. :)))
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/345677070_1442967659805857_5010606906537281677_n.jpg?stp=dst-jpg_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEzTikO8qUCkOii9GCQ1AZkW9wtpBEHneBb3C2kEQed4O3R2ln_Wwdsy--c2BOUsubujcpy8fqpiiSdAE5UXdIq&_nc_ohc=0qTJDFmArv4AX-pLc6E&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTlBGHuoJIyC3_-6H0aFjc2AN4qldE-pK582iNGGRBUkw&oe=648194AF" alt="">
+                    <h3>JAYDEN AGENDE</h3>
+                    <p>
+                        Very nice shoes and good service! Highly recommended!
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/318865155_1323526141741517_6868420747502052011_n.jpg?stp=dst-jpg_s180x540&_nc_cat=101&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGw_rP4s6MQwvclkvFRe0zITfBCsATEurpN8EKwBMS6utA9DEMNk_E9eyQds2yuZ2IM5pwlfATVStJwtrzEH_KW&_nc_ohc=nqteYvFJ6OAAX9cCLV5&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQN6B2r3SrhTHK9zaMuoH3CXnjY3arTLqsdIk90N-wxvQ&oe=648179A2" alt="">
+                    <h3>HERALD TERRANO</h3>
+                    <p>
+                      I love the Nike Airmac Shoes! they are very light on my feet and really comfortable.
+                    </p>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa fa-star-half-o"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--end blog-->
+        <section class="news" id="news">
+            <div class="content">
+                <h3>monthly news letter</h3>
+                <p>
+                  It's safe to say that they are the type of shoe you'll love if you don't want to buy a new pair every season. The sneakers are made of a durable leather with a synthetic lining, so they're super comfortable and breathable.
+                </p>
+                <form action="">
+                    <input type="email" placeholder="please enter your email" class="email">
+                    <input type="submit" value="save" class="btn">
+                </form>
+            </div>
+        </section>
+        <!--end news-->
+        <section class="cridet" id="cridet">
+            <div class="box">
+                <h3>All Rights Reserved By Joycel Silvano 2023</h3>
+            </div>
+        </section>
+        <script src="script.js"></script>
+
+        <script>
+          const addToCartButtons = document.querySelectorAll('.add-to-cart');
+const checkoutButton = document.querySelector('.checkout');
+const cancelButton = document.querySelector('.cancel');
+
+addToCartButtons.forEach(button => {
+  button.addEventListener('click', addToCart);
+});
+
+checkoutButton.addEventListener('click', showCheckoutForm);
+cancelButton.addEventListener('click', hideCheckoutForm);
+
+function addToCart(event) {
+  const product = event.target.parentElement;
+  const productName = product.querySelector('h3').textContent;
+  const productPrice = parseFloat(product.querySelector('.product-price').textContent.replace('₱', ''));
+  const productQuantity = parseInt(product.querySelector('.product-quantity').value);
+
+  const cartItem = document.createElement('li');
+  const cartItemName = document.createElement('span');
+  cartItemName.textContent = productName;
+
+  const cartItemPrice = document.createElement('span');
+  cartItemPrice.textContent = `₱${(productPrice * productQuantity).toFixed(2)}`;
+
+  const cartItemQuantity = document.createElement('span');
+  cartItemQuantity.textContent = `Quantity: ${productQuantity}`;
+
+  const removeButton = document.createElement('button');
+  removeButton.textContent = 'Remove';
+  removeButton.classList.add('remove-item');
+
+  cartItem.appendChild(cartItemName);
+  cartItem.appendChild(cartItemPrice);
+  cartItem.appendChild(cartItemQuantity);
+  cartItem.appendChild(removeButton);
+
+  const cartItems = document.querySelector('.cart-items');
+  cartItems.appendChild(cartItem);
+
+  updateCartTotal();
+}
+
+function updateCartTotal() {
+  const cartItems = document.querySelectorAll('.cart-items li');
+  let total = 0;
+  cartItems.forEach(item => {
+    const itemPrice = parseFloat(item.querySelector('span:nth-child(2)').textContent.replace('₱', ''));
+    total += itemPrice;
+  });
+
+  const totalElement = document.querySelector('.total');
+  totalElement.textContent = `₱${total.toFixed(2)}`;
+}
+
+function showCheckoutForm() {
+  const cartItems = document.querySelectorAll('.cart-items li');
+  const checkoutItems = document.querySelector('.checkout-items');
+  checkoutItems.innerHTML = '';
+
+  cartItems.forEach(item => {
+    const itemName = item.querySelector('span:nth-child(1)').textContent;
+    const itemPrice = item.querySelector('span:nth-child(2)').textContent;
+    const itemQuantity = item.querySelector('span:nth-child(3)').textContent;
+
+    const checkoutItem = document.createElement('li');
+    checkoutItem.innerHTML = `
+      <span>${itemName}</span>
+      <span>${itemPrice}</span>
+      <span>${itemQuantity}</span>
+    `;
+
+    const removeButton = document.createElement('button');
+    removeButton.textContent = 'Remove';
+    removeButton.classList.add('remove-item');
+
+    checkoutItem.appendChild(removeButton);
+    checkoutItems.appendChild(checkoutItem);
+  });
+
+  updateCheckoutTotal();
+  document.querySelector('.overlay').style.display = 'block';
+}
+
+function hideCheckoutForm() {
+  document.querySelector('.overlay').style.display = 'none';
+}
+
+function updateCheckoutTotal() {
+  const checkoutItems = document.querySelectorAll('.checkout-items li');
+  let total = 0;
+  checkoutItems.forEach(item => {
+    const itemPrice = parseFloat(item.querySelector('span:nth-child(2)').textContent.replace('₱', ''));
+    total += itemPrice;
+  });
+
+  const totalElement = document.querySelector('.checkout-total-price');
+  totalElement.textContent = `₱${total.toFixed(2)}`;
+}
+
+document.addEventListener('click', function(event) {
+  if (event.target.classList.contains('remove-item')) {
+    const item = event.target.parentElement;
+    item.remove();
+    updateCartTotal();
+    updateCheckoutTotal();
+  }
+});
+            </script>
+    </body>
+</html>
+
+<script src="js/script.js"></script>
